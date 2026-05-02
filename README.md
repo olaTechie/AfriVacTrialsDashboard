@@ -1,4 +1,4 @@
-# AfriVac Trials
+# AfriVac Trials Dashboard
 
 A production-ready Vite React migration of the original Streamlit dashboard for vaccine clinical trials conducted across Africa. The app keeps the original evidence workflow: global filters, phase metrics, country maps, country-year heatmaps, categorical charts, trend analysis, data exploration, report-style summaries, and a searchable references table.
 
@@ -47,7 +47,7 @@ git init
 git add .
 git commit -m "Migrate Streamlit dashboard to Vite React"
 git branch -M main
-git remote add origin https://github.com/<your-user>/<your-repo>.git
+git remote add origin https://github.com/olaTechie/AfriVacTrialsDashboard.git
 git push -u origin main
 ```
 
