@@ -1,0 +1,32 @@
+{
+  "name": "afrivac-trials",
+  "private": true,
+  "version": "1.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "deploy": "npm run build",
+    "lint": "eslint ."
+  },
+  "dependencies": {
+    "@vitejs/plugin-react": "^5.0.4",
+    "framer-motion": "^12.23.24",
+    "lucide-react": "^0.468.0",
+    "papaparse": "^5.5.3",
+    "plotly.js-dist-min": "^2.35.3",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
+    "react-plotly.js": "^2.6.0",
+    "react-router-dom": "^6.30.1",
+    "recharts": "^2.15.4"
+  },
+  "devDependencies": {
+    "@eslint/js": "^9.36.0",
+    "eslint": "^9.36.0",
+    "eslint-plugin-react-hooks": "^5.2.0",
+    "eslint-plugin-react-refresh": "^0.4.22",
+    "vite": "^7.1.7"
+  }
+}
